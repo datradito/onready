@@ -2,6 +2,8 @@
 
 
 
+BRIEF:
+
 -para importar la base de datos https://docs.mongodb.com/manual/reference/program/mongoimport/
 
 -esquema
