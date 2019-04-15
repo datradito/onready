@@ -3,13 +3,31 @@
 
 
 BRIEF:
+Install the following applications:
 
--para importar la base de datos https://docs.mongodb.com/manual/reference/program/mongoimport/
+-For Data Base Server on your local machine:
+https://www.mongodb.com/download-center/community
 
--esquema
+-API Development Environment:
+https://www.getpostman.com/downloads/    
+
+-To import the data base go to:
+https://docs.mongodb.com/manual/reference/program/mongoimport/
+
+-For executing commands using an environment from an env file:
+https://www.npmjs.com/package/env-cmd
+
+TEST:
+View de following documentation:
+https://jestjs.io/docs/
+https://www.npmjs.com/package/supertest
+
+
+DB Schema:
 
     nombreFilm:{
         type: String,
+        unique: true,
         require:true,
         trim: true
     },

@@ -12,8 +12,9 @@ DELETE	Delete	200 (OK), 404 (Not Found)
 const Film = mongoose.model('Film', {
     nombreFilm:{
         type: String,
+        unique: true,
         require:true,
-        trim: true
+        trim: true,
     },
     paisOrigen:{
         type: String,
